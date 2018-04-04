@@ -5,9 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
         InteractivePanel interactivePanel = new InteractivePanel();
-        interactivePanel.setLocale();
-        System.out.println(interactivePanel.getQuestions());
-        System.out.println(interactivePanel.getAnswer());
+
+        System.out.println(interactivePanel.interactiveGetQuestions(interactivePanel.interactiveSetLocale()));
+        System.out.println(interactivePanel.interactiveGetAnswer());
 
 
     }
